@@ -1,6 +1,5 @@
 'use strict';
 
-// some unit tests for those code tests go here
 const chai = require('chai');
 const expect = chai.expect;
 

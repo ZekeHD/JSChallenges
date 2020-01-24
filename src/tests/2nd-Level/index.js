@@ -1,7 +1,5 @@
 'use strict';
 
-// imports go here
-
 /*
     This function is passed an array of arrays of varying depth. De-nest
     all of the nested arrays and return a single, 1d array

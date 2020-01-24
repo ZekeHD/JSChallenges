@@ -1,7 +1,5 @@
 'use strict';
 
-// imports go here
-
 /*
     This function takes in an array. Using a higher-order Array function,
     add a string of "foo" on to the end of every string in the array.
