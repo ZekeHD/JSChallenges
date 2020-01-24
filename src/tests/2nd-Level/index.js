@@ -36,3 +36,8 @@ function assignmentTwo(myArray) {
 
     return null;
 }
+
+module.exports = {
+    assignmentOne,
+    assignmentTwo
+}
