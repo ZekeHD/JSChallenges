@@ -7,6 +7,9 @@
     add a string of "foo" on to the end of every string in the array.
 
     Return the array.
+
+    Example input: [ 'car', 'truck', 'wallet', 'giraffe', 'reqeust' ]
+    Example output: [ 'carfoo', 'truckfoo', 'walletfoo', 'giraffefoo', 'requestfoo' ]
 */
 
 function assignmentOne(myArray) {
@@ -17,10 +20,13 @@ function assignmentOne(myArray) {
 /*
     This function takes in an array. Using a higher-order Array function,
     depending on the contents of the current string in the array:
-        - prepend the index of the current element to the element
-        - add on "foo" to the beginning of the string if it contains "bar"
+        - prepend "{index}-" of the current element to the element
+        - add on "foo" to the beginning of the string if it contains substring "bar"
 
     Return the array.
+
+    Example input: [ 'mocha', 'bar of soap', 'phone', 'barr', 'giraffe' ]
+    Example output: [ '0-mocha', '1-foobar of soap', '2-phone', '3-foobarr', '4-giraffe' ]
 */
 
 function assignmentTwo(myArray) {
@@ -69,3 +75,11 @@ function assignmentFive(myArray) {
     // More entry level assignments here, focusing on Object {} manipulation.
 
 /////////
+
+module.exports = {
+    assignmentOne,
+    assignmentTwo,
+    assignmentThree,
+    assignmentFour,
+    assignmentFive
+}

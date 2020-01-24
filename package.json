@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "To test our wits and our skills!",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "sinon": "^8.1.1",
+    "sinon-chai": "^3.4.0"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testLevelOne": "_mocha \"src/tests/1st-Level/index.spec.js\"",
+    "testLevelTwo": "_mocha \"src/tests/1st-Level/index.spec.js\"",
+    "testLevelThree": "_mocha \"src/tests/1st-Level/index.spec.js\""
   },
   "author": "Zach Smith",
   "license": "ISC"
