@@ -37,6 +37,9 @@ function assignmentTwo(myArray) {
     reduce this array down to only elements that are of type string.
 
     Return the array.
+
+    Example input: [ 5, 'foo', null, undefined, [ 'nerf', 'dart' ], { a: 4 }, 'bar' ]
+    Example output: [ 'foo', 'bar' ]
 */
 
 function assignmentThree(myArray) {
@@ -48,7 +51,8 @@ function assignmentThree(myArray) {
     This function takes in an array of chars. Using a higher order Array function,
     turn this array into a string that consists of each element of the array, in order.
 
-    Input: [ 'G', 'i', 'r', 'a', 'f', 'f', 'e' ] // Output: 'Giraffe'
+    Example input: [ 'G', 'i', 'r', 'a', 'f', 'f', 'e' ]
+    Example output: "Giraffe"
 */
 
 function assignmentFour(myArray) {
@@ -58,9 +62,12 @@ function assignmentFour(myArray) {
 
 /*
     This function takes in an array of numbers. Using a higher order Array function,
-    add up each number in the array that happnens to be even AND is higher than 100.
+    add up each number in the array that happnens to be even AND is lower than 100.
 
     Return the new total.
+
+    Example input: [ 5004, 82, 241, 6, 32, 71, 5, 94 ]
+    Example output: 214
 */
 
 function assignmentFive(myArray) {
