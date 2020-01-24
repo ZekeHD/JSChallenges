@@ -12,8 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "testLevelOne": "_mocha \"src/tests/1st-Level/index.spec.js\"",
-    "testLevelTwo": "_mocha \"src/tests/1st-Level/index.spec.js\"",
-    "testLevelThree": "_mocha \"src/tests/1st-Level/index.spec.js\""
+    "testLevelTwo": "_mocha \"src/tests/2nd-Level/index.spec.js\"",
+    "testLevelThree": "_mocha \"src/tests/3rd-Level/index.spec.js\""
   },
   "author": "Zach Smith",
   "license": "ISC"

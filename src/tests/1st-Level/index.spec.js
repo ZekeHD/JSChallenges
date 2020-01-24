@@ -4,11 +4,11 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const firstLevelAssignments = require('./index');
+const firstLevelAssignments = require('./index.js');
 
 describe('the first assignment', () => {
     it('should return a correct answer...?', () => {
-        expect(firstLevelAssignments.assignmentOne([ 'giraffe', 'foo' ])).to.deep.equal(['giraffefoo', 'foofoo']);
+        expect(firstLevelAssignments.assignmentOne([ 'giraffe', 'foo' ])).to.deep.equal([ 'giraffefoo', 'foofoo' ]);
     });
 });
 
