@@ -29,7 +29,7 @@ function assignmentOne(myArray) {
 
 function assignmentTwo(myArray) {
 
-    return undefined;
+    return null;
 }
 
 /*
