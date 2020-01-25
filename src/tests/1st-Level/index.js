@@ -18,8 +18,8 @@ function assignmentOne(myArray) {
 /*
     This function takes in an array. Using a higher-order Array function,
     depending on the contents of the current string in the array:
-        - prepend "{index}-" of the current element to the element
         - add on "foo" to the beginning of the string if it contains substring "bar"
+        - prepend "{index}-" to the string
 
     Return the array.
 
